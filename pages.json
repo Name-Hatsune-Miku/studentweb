@@ -1,0 +1,103 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path" : "pages/home/home",
+			"style" : 
+			{
+				"navigationBarTitleText" : "首页",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/tabulation/tabulation",
+			"style" : 
+			{
+				"navigationBarTitleText" : "学生列表",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/user/user",
+			"style" : 
+			{
+				"navigationBarTitleText" : "我的",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/adde/adde",
+			"style" : 
+			{
+				"navigationBarTitleText" : "添加学生",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/search/search",
+			"style" : 
+			{
+				"navigationBarTitleText" : "搜索学生",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/register/register",
+			"style" : 
+			{
+				"navigationBarTitleText" : "注册",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/details/details",
+			"style" : 
+			{
+				"navigationBarTitleText" : "详情",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/tabulation-edit/tabulation-edit",
+			"style" : 
+			{
+				"navigationBarTitleText" : "编辑",
+				"enablePullDownRefresh" : false
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar":{
+		"list":[
+			{
+				"pagePath":"pages/home/home",
+				"iconPath": "static/shouye.png",
+				"selectedIconPath": "static/shouye (1).png",
+				"text": "首页"
+			},
+			{
+				"pagePath":"pages/tabulation/tabulation",
+				"iconPath": "static/liebiao.png",
+				"selectedIconPath": "static/liebiao (1).png",
+				"text": "列表"
+			},
+			{
+				"pagePath":"pages/user/user",
+				"iconPath": "static/select.png",
+				"selectedIconPath": "static/select (1).png",
+				"text": "我的"
+			}
+		]
+	}
+}
